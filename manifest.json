@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Emotional Peardeck",
   "version": "1.4.3",
-  "description": "Makes Katy Peary Happy, Angry 40%, Sad 20%, and Tired 20% of The Time! Adds a Menu to Control Katy Peary's Emotions.",
+  "description": " Katy Peary Happy, Angry 40%, Sad 20%, and Tired 20% of The Time! Adds a Menu to Control Katy Peary's Emotions.",
   "author": "ryanhuang",
   "icons": { "16": "icons/icon16x16.png",
            "48": "icons/icon48x48.png",
