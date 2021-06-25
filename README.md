@@ -16,4 +16,6 @@ Whether you use this project, have learned something from it, or just like it, p
 
 ## Setup
 
-Downlaod the Repository to your local computer by clicking the green `Code` button, then click `Download ZIP`
+Downlaod the Repository to your local computer by clicking the green `Code` button, then click `Download ZIP`.
+
+## License
