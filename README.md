@@ -18,6 +18,8 @@ Whether you use this project, have learned something from it, or just like it, p
 
 Downlaod the Repository to your local computer by clicking the green `Code` button, then click `Download ZIP`.
 
+To be continued...
+
 ---
 
 ## License
