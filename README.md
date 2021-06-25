@@ -16,6 +16,8 @@ Whether you use this project, have learned something from it, or just like it, p
 
 ## Setup
 
+![Emotional Peary Download to Desktop](readme-images/emotional-peary-download-to-desktop.gif)
+
 Downlaod the Repository to your local computer by clicking the green `Code` button, then click `Download ZIP`.
 
 This section is to be continued...
