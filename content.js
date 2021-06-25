@@ -81,7 +81,7 @@ chrome.runtime.onMessage.addListener(
         console.log(path);
         console.log(messageText.slice(0, 37));
         console.log("button -> angry code page");
-    } else if (request.greeting == "RANDOMhttps://app.peardeck.com/join") {
+    } else if (request.greeting === "RANDOMhttps://app.peardeck.com/join") {
       let filenames = [
         "angryPearSmolFinal.png",
         "sadPearSmol.png",
