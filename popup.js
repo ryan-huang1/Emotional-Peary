@@ -1,8 +1,4 @@
 //happy peary
-document.addEventListener('DOMContentLoaded', function () {
-  document.getElementById('happyButton').addEventListener('click',
-    onclick, false)
-
     function onclick () {
       chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
         var url = tabs[0].url;
@@ -10,11 +6,15 @@ document.addEventListener('DOMContentLoaded', function () {
         });
       });
     }
-}, false)
+}, false);
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("happyButton").addEventListener("click",
+    onclick, false);
 
 //mad peary
-document.addEventListener('DOMContentLoaded', function () {
-  document.getElementById('madButton').addEventListener('click',
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("madButton").addEventListener("click",
     onclick, false)
 
     function onclick () {
@@ -24,12 +24,12 @@ document.addEventListener('DOMContentLoaded', function () {
         });
       });
     }
-}, false)
+}, false);
 
 //sad peary
-document.addEventListener('DOMContentLoaded', function () {
-  document.getElementById('sadButton').addEventListener('click',
-    onclick, false)
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("sadButton").addEventListener("click",
+    onclick, false);
 
     function onclick () {
       chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
@@ -38,11 +38,11 @@ document.addEventListener('DOMContentLoaded', function () {
         });
       });
     }
-}, false)
+}, false);
 
 //kinda sad peary
-document.addEventListener('DOMContentLoaded', function () {
-  document.getElementById('kindaSadButton').addEventListener('click',
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("kindaSadButton").addEventListener("click",
     onclick, false)
 
     function onclick () {
@@ -52,12 +52,12 @@ document.addEventListener('DOMContentLoaded', function () {
         });
       });
     }
-}, false)
+}, false);
 
 //random peary
-document.addEventListener('DOMContentLoaded', function () {
-  document.getElementById('randomButton').addEventListener('click',
-    onclick, false)
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("randomButton").addEventListener("click",
+    onclick, false);
 
     function onclick () {
       chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
@@ -66,4 +66,4 @@ document.addEventListener('DOMContentLoaded', function () {
         });
       });
     }
-}, false)
+}, false);
