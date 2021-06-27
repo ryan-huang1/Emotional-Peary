@@ -28,6 +28,8 @@ Whether you use this project, have learned something from it, or just like it, p
 
 > Select the fodler "Emotional-Peary-master" 
 
+And you're done!
+
 This section is to be continued...
 
 ---
