@@ -24,6 +24,8 @@ Whether you use this project, have learned something from it, or just like it, p
 
 > Turn on Developer Mode by clicking on the blue switch
 
+> Click the button Load Unpacked
+
 This section is to be continued...
 
 ---
