@@ -18,9 +18,9 @@ Whether you use this project, have learned something from it, or just like it, p
 
 <img src="readme-images/emotional-peary-download-to-desktop.gif" alt="Emotional Peary Download to Desktop" height="415">
 
-Downlaod the Repository to your local computer by clicking the green `Code` button, then click `Download ZIP`.
+> Downlaod the Repository to your local computer by clicking the green `Code` button, then click `Download ZIP`.
 
-Open the Extention Menu in Chrome by clicking the `Customize and Control Google Chrome` button, hovering over `More Tools`, then clicking `Extensions`
+> Open the Extention Menu in Chrome by clicking the `Customize and Control Google Chrome` button, hovering over `More Tools`, then clicking `Extensions`
 
 This section is to be continued...
 
