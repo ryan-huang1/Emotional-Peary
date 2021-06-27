@@ -26,7 +26,7 @@ Whether you use this project, have learned something from it, or just like it, p
 
 > Click the button Load Unpacked
 
-> Select the file 
+> Select the fodler "Emotional-Peary-master" 
 
 This section is to be continued...
 
