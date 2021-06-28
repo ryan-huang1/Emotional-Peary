@@ -24,6 +24,8 @@ Whether you use this project, have learned something from it, or just like it, p
 
 > Open the Extention Menu in Chrome by clicking the `Customize and Control Google Chrome` button, hovering over `More Tools`, then clicking `Extensions`
 
+<img src="readme-images/Turn-On-Dev-Mode.gif" alt="Turn On Developer Mode" height="375">
+
 > Turn on Developer Mode by clicking on the blue switch
 
 > Click the button Load Unpacked then select the fodler "Emotional-Peary-master" 
