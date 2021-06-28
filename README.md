@@ -20,6 +20,8 @@ Whether you use this project, have learned something from it, or just like it, p
 
 > Downlaod the Repository to your local computer by clicking the green `Code` button, then click `Download ZIP`.
 
+<img src="readme-images/Open-Extention-Menu.gif" alt="Open Extention Menu" height="375">
+
 > Open the Extention Menu in Chrome by clicking the `Customize and Control Google Chrome` button, hovering over `More Tools`, then clicking `Extensions`
 
 > Turn on Developer Mode by clicking on the blue switch
