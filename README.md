@@ -28,11 +28,11 @@ Whether you use this project, have learned something from it, or just like it, p
 
 > Turn on Developer Mode by clicking on the blue switch
 
+<img src="readme-images/Load-Unpacked.gif" alt="Load Unpacked" height="375">
+
 > Click the button Load Unpacked then select the fodler "Emotional-Peary-master" 
 
 And you're set, enjoy!
-
-This section is to be continued...
 
 ---
 
