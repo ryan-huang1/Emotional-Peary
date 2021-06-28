@@ -24,11 +24,9 @@ Whether you use this project, have learned something from it, or just like it, p
 
 > Turn on Developer Mode by clicking on the blue switch
 
-> Click the button Load Unpacked
+> Click the button Load Unpacked then select the fodler "Emotional-Peary-master" 
 
-> Select the fodler "Emotional-Peary-master" 
-
-And you're done!
+And you're set, enjoy!
 
 This section is to be continued...
 
