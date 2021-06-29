@@ -38,6 +38,6 @@ Whether you use this project, have learned something from it, or just like it, p
 
 ## License
 
-> Read the licence [here](https://github.com/Ryan-Huang1/Emotional-Peary/blob/master/README.md) 
+> Read the [licence](https://github.com/Ryan-Huang1/Emotional-Peary/blob/master/README.md) 
 
 Ryan-Huang1/Emotional-Peary is licensed under the **GNU General Public License v3.0**
