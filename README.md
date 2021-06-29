@@ -22,7 +22,7 @@ This is a Chrome Extension that makes Katy Peary have diffrent emotions randomal
 
 <img src="readme-images/Load-Unpacked.gif" alt="Load Unpacked" height="375">
 
-> Click the button Load Unpacked then select the fodler "Emotional-Peary-master" 
+> Click the button Load Unpacked then select the folder "Emotional-Peary-master" 
 
 And you're set, enjoy 🥳!
 
