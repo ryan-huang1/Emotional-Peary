@@ -24,7 +24,7 @@ This is a Chrome Extension that makes Katy Peary have diffrent emotions randomal
 
 > Click the button Load Unpacked then select the fodler "Emotional-Peary-master" 
 
-And you're set, enjoy 😊!
+And you're set, enjoy 🥳!
 
 ---
 
