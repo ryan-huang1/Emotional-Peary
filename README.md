@@ -6,14 +6,6 @@ This is a Chrome Extension that makes Katy Peary have diffrent emotions randomal
 
 ---
 
-## Buy me a coffee
-
-Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on open-source projects like this :)
-
-<a href="https://www.buymeacoffee.com/ryanhuang" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
----
-
 ## Setup
 
 <img src="readme-images/Download-ZIP.gif" alt="Download ZIP" height="375">
@@ -33,6 +25,14 @@ Whether you use this project, have learned something from it, or just like it, p
 > Click the button Load Unpacked then select the fodler "Emotional-Peary-master" 
 
 And you're set, enjoy!
+
+---
+
+## Buy me a coffee
+
+Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on open-source projects like this :)
+
+<a href="https://www.buymeacoffee.com/ryanhuang" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 ---
 
