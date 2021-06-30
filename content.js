@@ -59,7 +59,7 @@ chrome.runtime.onMessage.addListener(
         document.querySelector('.alpha-modal__peary img').src = path;
         sendResponse({farewell: "goodbye"});
         console.log(path);
-        console.log('button -> happy code page');
+        console.log("button -> happy code page");
     } else if (messageText.slice(0, 37) == 'MADhttps://app.peardeck.com/presenter') {
         var path = chrome.extension.getURL("pears/join-modal-pear-mad.png");
         document.querySelector('.alpha-modal__peary img').src = path;
