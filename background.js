@@ -1,4 +1,4 @@
-console.log('background.js has been loaded: ryanhuang');
+console.log("background.js has been loaded: ryanhuang");
 
 chrome.webNavigation.onCompleted.addListener(function() {
   //gets the url
@@ -13,4 +13,4 @@ chrome.webNavigation.onCompleted.addListener(function() {
          console.log(url);
          //alert(url)
      });
-}, {url: [{urlMatches : 'https://app.peardeck.com/'}]});
+}, {url: [{urlMatches : "https://app.peardeck.com/"}]});
