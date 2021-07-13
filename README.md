@@ -10,9 +10,9 @@ This is a Chrome Extension that adds 3 more emotions to Katy Peary. Katy Peary w
 
 <img src="readme-images/Download-ZIP.gif" alt="Download ZIP" height="375">
 
----
-
 > Downlaod the Repository to your local computer by clicking the green `Code` button, then click `Download ZIP`.
+
+---
 
 <img src="readme-images/Open-Extention-Menu.gif" alt="Open Extention Menu" height="375">
 
