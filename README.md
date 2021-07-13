@@ -12,17 +12,25 @@ This is a Chrome Extension that adds 3 more emotions to Katy Peary. Katy Peary w
 
 > Downlaod the Repository to your local computer by clicking the green `Code` button, then click `Download ZIP`.
 
+---
+
 <img src="readme-images/Open-Extention-Menu.gif" alt="Open Extention Menu" height="375">
 
 > Open the Extention Menu in Chrome by clicking the `Customize and Control Google Chrome` button, hovering over `More Tools`, then clicking `Extensions`
+
+---
 
 <img src="readme-images/Turn-On-Dev-Mode.gif" alt="Turn On Developer Mode" height="375">
 
 > Turn on Developer Mode by clicking on the blue switch
 
+---
+
 <img src="readme-images/Load-Unpacked.gif" alt="Load Unpacked" height="375">
 
 > Click the button Load Unpacked then select the folder "Emotional-Peary-master"
+
+---
 
 And you're set, enjoy 🥳!
 
