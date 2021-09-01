@@ -40,4 +40,4 @@ And you're set, enjoy 🥳!
 
 > Read the [licence](https://github.com/Ryan-Huang1/Emotional-Peary/blob/master/README.md)
 
-Ryan-Huang1/Emotional-Peary is licensed under the **GNU General Public License v3.0**
+Ryan-Huang1/Emotional-Peary is licensed under the `GNU General Public License v3.0`
