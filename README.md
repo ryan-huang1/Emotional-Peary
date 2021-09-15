@@ -32,7 +32,7 @@ This is a Chrome Extension that adds 3 more emotions to Katy Peary. Katy Peary w
 
 ---
 
-And you're set, enjoy 🥳!
+And you're set, enjoy 🎉!
 
 ---
 
