@@ -6,6 +6,10 @@ This is a Chrome Extension that adds 3 more emotions to Katy Peary. Katy Peary w
 
 ---
 
+[Setup Instructions](general/SET_UP.md)
+
+---
+
 ## License
 
 > Read the [licence](general/LICENSE)
