@@ -8,4 +8,4 @@ Any idea is welcome, no matter how out of the box. Please discuss your ideas in 
 
 ## Contrubiting Drawings
 
-All drawing ideas are welcome, all that I ask is that they are SFW. They should also follow the general style in the [existing emotions](Emotional-Peary/pears/).
+All drawing ideas are welcome, all that I ask is that they are SFW. They should also follow the general style in the [existing emotions](https://github.com/Ryan-Huang1/Emotional-Peary/tree/master/pears).
