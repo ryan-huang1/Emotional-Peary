@@ -5,3 +5,7 @@ Everyone is welcome to contribute however changes that get commited to `master` 
 ## Contributing Code
 
 Any idea is welcome, no matter how out of the box. Please discuss your ideas in a issue. Before opening a pull request veryify that your code is working and doesn't have any formating errors, Codacy will check each pull request and give automatic feedback.
+
+## Contrubiting Drawings
+
+All drawing ideas are welcome, all that I ask is that they are SFW. They should also follow the general style in the [existing emotions](Emotional-Peary/pears/).
