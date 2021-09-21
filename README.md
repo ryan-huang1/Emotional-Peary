@@ -9,6 +9,7 @@ This is a Chrome Extension that adds 3 more emotions to Katy Peary. Katy Peary w
 ## Chapters
 
 - [Setup Instructions](general/SET_UP.md)
+- [Steps to Contribute](general/CONTRIBUTING.md)
 
 ---
 
