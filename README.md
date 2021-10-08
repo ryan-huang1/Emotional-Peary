@@ -4,7 +4,7 @@
 
 This is a Chrome Extension that adds 3 more emotions to Katy Peary. Katy Peary will randomly change her emotions, you can also manually chnage her emotions with the menu.
 
-this is
+this is a
 
 ---
 
