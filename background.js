@@ -14,4 +14,3 @@ chrome.webNavigation.onCompleted.addListener(function() {
          //alert(url)
      });
 }, {url: [{urlMatches : "https://app.peardeck.com/"}]});
-

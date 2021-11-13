@@ -18,3 +18,4 @@ This is a Chrome Extension that adds 50 more emotions to Katy Peary. Katy Peary 
 > Read the [licence](general/LICENSE)
 >
 Emotional-Peary is licensed under `GNU General Public License v3.0`
+
