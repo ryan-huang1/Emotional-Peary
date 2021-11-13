@@ -1,47 +1,21 @@
-#happyButton {
+.pearButton {
   background-color: rgb(224, 236, 227);
   border-radius: 5px;
   border-color: #d8d3cd;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
-#madButton {
+.diceButton {
   background-color: rgb(224, 236, 227);
   border-radius: 5px;
   border-color: #d8d3cd;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
-#sadButton {
-  background-color: rgb(224, 236, 227);
-  border-radius: 5px;
-  border-color: #d8d3cd;
+.button {
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
-#kindaSadButton {
-  background-color: rgb(224, 236, 227);
-  border-radius: 5px;
-  border-color: #d8d3cd;
-}
-
-#randomButton {
-  background-color: rgb(224, 236, 227);
-  border-radius: 5px;
-  border-color: #d8d3cd;
-  height: 57px;
-  width: 57px;
-}
-
-.madButtonDiv {
-  padding-top: 8px;
-}
-
-.sadButtonDiv {
-  padding-top: 8px;
-}
-
-.kindaSadButtonDiv {
-  padding-top: 8px;
-}
-
-.randomButtonDiv {
-  padding-top: 8px;
-}

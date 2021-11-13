@@ -4,8 +4,6 @@
 
 This is a Chrome Extension that adds 50 more emotions to Katy Peary. Katy Peary will randomly change her emotions, you can also manually change her emotions with the menu.
 
-this is a test
-
 ---
 
 ## Chapters

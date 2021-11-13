@@ -1,146 +1,195 @@
-//console.log('content.js has been loaded: ryanhuang');
+console.log('content.js has been loaded: ryanhuang');
 
 chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
-    //console.log(sender.tab ?
-    //            "from a content script:" + sender.tab.url :
-    //            "from the extension");
-    //console.log(request.greeting);
+
     var messageText = request.greeting
-    if (request.greeting == "https://app.peardeck.com/join") {
 
-      let filenames = [
-        "angryPearSmolFinal.png",
-        "sadPearSmol.png",
-        "kindaSadPear.png",
-        "happyPear.png",
-        "happyPear.png",
-        "happyPear.png",
-      ];
+    //join function
+    function join_function(pear) {
+      if (request.greeting == "https://app.peardeck.com/join") {
 
-      let r = Math.floor(Math.random() * filenames.length);
-      let file = "pears/" + filenames[r];
-      var path = chrome.extension.getURL(file);
-      //console.log(path);
-      //console.log(r);
+        //on load change image
+        let filenames = [
+          "blush-pear.png",
+          "mad-pear.png",
+          "confused-pear.png",
+          "content-pear.png",
+          "crying-pear.png",
+          "sad-pear.png",
+          "sleeping-pear.png",
+          "sunglass-pear.png",
+          "tongue-pear.png",
+          "very-confused-pear.png",
+          "happy-pear.png",
+          "happy-pear.png",
+          "happy-pear.png",
+          "happy-pear.png",
+        ];
 
-      document.getElementsByClassName("join__logo")[0].src=path;
+        let r = Math.floor(Math.random() * filenames.length);
+        let file = "pears/" + filenames[r];
+        var path = chrome.extension.getURL(file);
 
-      //console.log("join page");
-      //console.log(request.greeting);
-      sendResponse({farewell: "goodbye"});
-      //console.log("end of content.js");
-    } else if (request.greeting == 'HAPPYhttps://app.peardeck.com/join') {
-        var path = chrome.extension.getURL("pears/happyPear.png");
+        document.getElementsByClassName("join__logo")[0].src=path;
+        console.log("on load join function called");
+        console.log(r);
+        console.log(path);
+        sendResponse({farewell: "goodbye"});
+
+      } else if (messageText.includes("dice")){
+
+        //on dice button click
+        let filenames = [
+          "blush-pear.png",
+          "mad-pear.png",
+          "confused-pear.png",
+          "content-pear.png",
+          "crying-pear.png",
+          "sad-pear.png",
+          "sleeping-pear.png",
+          "sunglass-pear.png",
+          "tongue-pear.png",
+          "very-confused-pear.png",
+        ];
+
+        let r = Math.floor(Math.random() * filenames.length);
+        let file = 'pears/' + filenames[r];
+        var path = chrome.extension.getURL(file);
+        console.log(path);
+        console.log(r);
+
+        document.getElementsByClassName("join__logo")[0].src=path;
+
+        sendResponse({farewell: "goodbye"});
+        console.log("on dice click join function called");
+
+      } else {
+
+        //on button click
+        var path = chrome.extension.getURL(pear);
         document.getElementsByClassName("join__logo")[0].src = path;
         sendResponse({farewell: "goodbye"});
-        //console.log('button -> happy join page');
-        //console.log(path);
-    } else if (request.greeting == "MADhttps://app.peardeck.com/join") {
-        var path = chrome.extension.getURL("pears/angryPearSmolFinal.png");
-        document.getElementsByClassName("join__logo")[0].src = path;
-        sendResponse({farewell: "goodbye"});
-        //console.log('button -> mad join page');
-        //console.log(path);
-    } else if (request.greeting == "SADhttps://app.peardeck.com/join") {
-        var path = chrome.extension.getURL("pears/sadPearSmol.png");
-        document.getElementsByClassName("join__logo")[0].src = path;
-        sendResponse({farewell: "goodbye"});
-        //console.log('button -> sad join page');
-        //console.log(path);
-    } else if (request.greeting == 'KINDASADhttps://app.peardeck.com/join') {
-      var path = chrome.extension.getURL("pears/kindaSadPear.png");
-      document.getElementsByClassName("join__logo")[0].src = path;
-      sendResponse({farewell: "goodbye"});
-      //console.log('button -> kinda sad join page');
-      //console.log(path);
-    } else if (messageText.slice(0, 39) == 'HAPPYhttps://app.peardeck.com/presenter') {
-        var path = chrome.extension.getURL("pears/join-modal-logo.png");
-        document.querySelector('.alpha-modal__peary img').src = path;
-        sendResponse({farewell: "goodbye"});
-        console.log(path);
-        console.log("button -> happy code page");
-    } else if (messageText.slice(0, 37) == 'MADhttps://app.peardeck.com/presenter') {
-        var path = chrome.extension.getURL("pears/join-modal-pear-mad.png");
-        document.querySelector('.alpha-modal__peary img').src = path;
-        sendResponse({farewell: "goodbye"});
-        console.log(path);
-        console.log(messageText.slice(0, 37));
-        console.log('button -> angry code page');
-    } else if (messageText.slice(0, 42) == 'KINDASADhttps://app.peardeck.com/presenter') {
-        var path = chrome.extension.getURL("pears/join-modal-logo-kinda-sad.png");
-        document.querySelector('.alpha-modal__peary img').src = path;
-        sendResponse({farewell: "goodbye"});
-        console.log(path);
-        console.log(messageText.slice(0, 37));
-        console.log('button -> kinda sad code page');
-    } else if (messageText.slice(0, 37) == 'SADhttps://app.peardeck.com/presenter') {
-        var path = chrome.extension.getURL("pears/join-modal-logo-sad.png");
-        document.querySelector('.alpha-modal__peary img').src = path;
-        sendResponse({farewell: "goodbye"});
-        console.log(path);
-        console.log(messageText.slice(0, 37));
-        console.log('button -> angry code page');
-    } else if (request.greeting == 'RANDOMhttps://app.peardeck.com/join') {
-      let filenames = [
-        "angryPearSmolFinal.png",
-        "sadPearSmol.png",
-        "kindaSadPear.png",
-      ];
+        console.log("on button click join function called");
 
-      let r = Math.floor(Math.random() * filenames.length);
-      let file = 'pears/' + filenames[r];
-      var path = chrome.extension.getURL(file);
-      console.log(path);
-      console.log(r);
-
-      document.getElementsByClassName("join__logo")[0].src=path;
-
-      console.log("join page");
-      console.log(request.greeting);
-      sendResponse({farewell: "goodbye"});
-      console.log("end of content.js");
-    } else if (messageText.slice(0, 42) == 'RANDOMhttps://app.peardeck.com/presenter') {
-
-      let filenames = [
-        "join-modal-pear-mad.png",
-        "join-modal-logo-sad.png",
-        "join-modal-logo-kinda-sad.png",
-      ];
-
-      let r = Math.floor(Math.random() * filenames.length);
-      let file = 'pears/' + filenames[r];
-      var path = chrome.extension.getURL(file);
-      console.log(path);
-      console.log(r);
-
-      function pollDOM () {
-        const el = document.querySelector('.alpha-modal__peary img');
-
-        if (el != null) {
-          // Do something
-          document.querySelector('.alpha-modal__peary img').src = path;
-        } else {
-          setTimeout(pollDOM, 200); // try again in milliseconds
-        }
       }
+    }
 
-      pollDOM();
+    //presenter function
+    function presenter_function(pear) {
+      if (messageText.slice(-7) == "gslides") {
 
-      console.log("teacher page");
-      console.log(request.greeting);
-      sendResponse({farewell: "goodbye"});
-      console.log("end of content.js");
-      console.log(messageText.slice(0, 37));
+        //on load change image
+        let filenames = [
+          "join-blush-pear.png",
+          "join-mad-pear.png",
+          "join-confused-pear.png",
+          "join-content-pear.png",
+          "join-crying-pear.png",
+          "join-sad-pear.png",
+          "join-sleeping-pear.png",
+          "join-sunglass-pear.png",
+          "join-tongue-pear.png",
+          "join-very-confused-pear.png",
+          "join-happy-pear.png",
+          "join-happy-pear.png",
+          "join-happy-pear.png",
+        ];
+
+        let r = Math.floor(Math.random() * filenames.length);
+        let file = 'pears/' + filenames[r];
+        var path = chrome.extension.getURL(file);
+        console.log(path);
+        console.log(r);
+
+        function pollDOM () {
+          const el = document.querySelector('.alpha-modal__peary img');
+
+          if (el != null) {
+            // Do something
+            document.querySelector('.alpha-modal__peary img').src = path;
+          } else {
+            setTimeout(pollDOM, 200); // try again in milliseconds
+          }
+        }
+
+        pollDOM();
+
+        sendResponse({farewell: "goodbye"});
+
+      } else if (messageText.includes("dice")){
+
+        //on dice button click
+        let filenames = [
+          "join-blush-pear.png",
+          "join-mad-pear.png",
+          "join-confused-pear.png",
+          "join-content-pear.png",
+          "join-crying-pear.png",
+          "join-sad-pear.png",
+          "join-sleeping-pear.png",
+          "join-sunglass-pear.png",
+          "join-tongue-pear.png",
+          "join-very-confused-pear.png",
+        ];
+
+        let r = Math.floor(Math.random() * filenames.length);
+        let file = 'pears/' + filenames[r];
+        var path = chrome.extension.getURL(file);
+        console.log(path);
+        console.log(r);
+
+        function pollDOM () {
+          const el = document.querySelector('.alpha-modal__peary img');
+
+          if (el != null) {
+            // Do something
+            document.querySelector('.alpha-modal__peary img').src = path;
+          } else {
+            setTimeout(pollDOM, 200); // try again in milliseconds
+          }
+        }
+
+        pollDOM();
+
+        sendResponse({farewell: "goodbye"});
+        console.log("on dice click join function called");
+
+      } else {
+
+        //on button click
+        var path = chrome.extension.getURL(pear);
+        document.querySelector('.alpha-modal__peary img').src = path;
+        console.log("presenter function called")
+        sendResponse({farewell: "goodbye"});
+      }
+    }
+
+    if (messageText.slice(0, 29) == 'https://app.peardeck.com/join') {
+        let button_name = messageText.slice(29)
+        var final_path = "pears/" + button_name + ".png"
+        join_function(final_path);
+        console.log(final_path);
+
+    } else if (messageText.slice(0, 34) == 'https://app.peardeck.com/presenter') {
+        let button_name = messageText.slice(71)
+        var final_path = "pears/join-" + button_name + ".png"
+        presenter_function(final_path);
+        console.log(final_path);
+
     } else {
 
       let filenames = [
-        "join-modal-pear-mad.png",
-        "join-modal-logo-sad.png",
-        "join-modal-logo-kinda-sad.png",
-        "join-modal-logo.png",
-        "join-modal-logo.png",
-        "join-modal-logo.png",
+        "join-blush-pear.png",
+        "join-mad-pear.png",
+        "join-confused-pear.png",
+        "join-content-pear.png",
+        "join-crying-pear.png",
+        "join-sad-pear.png",
+        "join-sleeping-pear.png",
+        "join-sunglass-pear.png",
+        "join-tongue-pear.png",
+        "join-very-confused-pear.png",
       ];
 
       let r = Math.floor(Math.random() * filenames.length);
@@ -162,12 +211,9 @@ chrome.runtime.onMessage.addListener(
 
       pollDOM();
 
-      console.log("teacher page");
-      console.log(request.greeting);
       sendResponse({farewell: "goodbye"});
-      console.log("end of content.js");
-      console.log(messageText.slice(0, 37));
     }
     return true;
   }
   );
+
