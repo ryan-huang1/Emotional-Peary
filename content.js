@@ -4,6 +4,8 @@ chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
 
     var messageText = request.greeting
+    console.log(messageText);
+    console.log(messageText.slice(9));
 
     //join function
     function join_function(pear) {
@@ -176,6 +178,10 @@ chrome.runtime.onMessage.addListener(
         var final_path = "pears/join-" + button_name + ".png"
         presenter_function(final_path);
         console.log(final_path);
+
+    } else if (messageText.includes("textinput")) {
+        document.querySelectorAll('.alpha-modal__help-text')[0].innerHTML = messageText.slice(9);
+        console.log("change text function fired");
 
     } else {
 

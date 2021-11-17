@@ -154,3 +154,17 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     }
 }, false)
+
+document.addEventListener('DOMContentLoaded', function () {
+  document.getElementById('textInputButton').addEventListener('click',
+    onclick, false)
+
+    function onclick () {
+      chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+        var url = tabs[0].url
+        var textAreaValue = document.getElementById("textInput").value
+        chrome.tabs.sendMessage(tabs[0].id, {greeting: "textinput"+textAreaValue}, function(response) {
+        });
+      });
+    }
+}, false)

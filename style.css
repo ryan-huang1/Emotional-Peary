@@ -11,7 +11,19 @@
   border-radius: 5px;
   border-color: #d8d3cd;
   padding-top: 3px;
+}
+
+#textInput {
+  padding-top: 3px;
   padding-bottom: 3px;
+  width:57px;
+}
+
+#textInputButton {
+  background-color: rgb(224, 236, 227);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  width:57px;
 }
 
 .button {
